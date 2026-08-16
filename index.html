@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Good Shepherd Matric. Hr. Sec. School — Korattur, Chennai</title>
+<link rel="icon" href="school.png" type="image/png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700;9..144,900&family=Source+Sans+3:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#" class="brand" data-nav="home">
+      <img src="school.png" alt="Good Shepherd crest" class="brand-crest">
+      <span class="brand-text">
+        <strong>Good Shepherd</strong>
+        <em>Matric. Hr. Sec. School</em>
+      </span>
+    </a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#" class="nav-link" data-nav="home">Home</a>
+      <a href="#" class="nav-link" data-nav="about">About</a>
+      <a href="#" class="nav-link" data-nav="academics">Academics</a>
+      <a href="#" class="nav-link" data-nav="facilities">Facilities</a>
+      <a href="#" class="nav-link" data-nav="gallery">Gallery</a>
+      <a href="#" class="nav-link" data-nav="contact">Contact</a>
+      <a href="#" class="nav-link nav-cta nav-bold" id="loginNavBtn" data-nav="login">Login</a>
+      <a href="#" class="nav-link" data-nav="admissions">Admissions</a>
+      <a href="#" class="nav-link nav-cta nav-account hidden" id="accountNavBtn" data-nav="">Account</a>
+    </nav>
+  </div>
+</header>
+
+<main id="mainContent">
+
+  <section class="view" id="view-home">
+    <div class="hero">
+      <div class="hero-crest-wrap">
+        <img src="school.png" alt="Good Shepherd crest" class="hero-crest">
+      </div>
+      <p class="eyebrow">Korattur, Chennai 600080 &nbsp;·&nbsp; Since 1986</p>
+      <h1 class="hero-title">Arise <span class="hero-and">and</span> Shine</h1>
+      <p class="hero-sub" id="heroSubText">Good Shepherd Matriculation Higher Secondary School has spent nearly four decades shepherding young minds toward curiosity, character and confidence.</p>
+      
+      <!-- HERO ACTIONS: Login first, Admissions second (stacked vertically with rounded rectangular shape) -->
+      <div class="hero-actions-stacked">
+        <a href="#" class="btn btn-gold btn-rounded btn-stacked" data-nav="login">Student / Admin Login</a>
+        <a href="#" class="btn btn-outline btn-rounded btn-stacked" data-nav="admissions">Begin Admissions</a>
+      </div>
+    </div>
+
+    <div class="stat-shields">
+      <div class="stat-shield">
+        <span class="stat-number">39</span>
+        <span class="stat-label">Years of Teaching</span>
+      </div>
+      <div class="stat-shield">
+        <span class="stat-number">1200+</span>
+        <span class="stat-label">Students Enrolled</span>
+      </div>
+      <div class="stat-shield">
+        <span class="stat-number">65</span>
+        <span class="stat-label">Faculty Members</span>
+      </div>
+      <div class="stat-shield">
+        <span class="stat-number">12</span>
+        <span class="stat-label">Grades, LKG–XII</span>
+      </div>
+    </div>
+
+    <div class="home-split">
+      <article class="home-card">
+        <h3>A Legacy of Care</h3>
+        <p>Founded in 1986, our school has grown from a handful of classrooms into a full matriculation higher secondary institution — without losing sight of the pastoral attention we started with.</p>
+        <a href="#" class="link-arrow" data-nav="about">Read our story →</a>
+      </article>
+      <article class="home-card">
+        <h3>Announcements</h3>
+        <ul class="mini-announcements" id="homeAnnouncementsList"></ul>
+        <a href="#" class="link-arrow" data-nav="login">View full notice board →</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="view hidden" id="view-about">
+    <div class="section-head">
+      <p class="eyebrow">About Us</p>
+      <h2>Rooted in 1986. Growing every year since.</h2>
+    </div>
+
+    <div class="about-grid">
+      <article class="panel">
+        <h3>Our Story</h3>
+        <p id="aboutStoryText">Good Shepherd Matriculation Higher Secondary School opened its doors in Korattur in 1986 with a simple aim: guide every child attentively, patiently, and toward good ground.</p>
+      </article>
+
+      <article class="panel">
+        <h3>Our Vision</h3>
+        <p>To nurture confident, compassionate learners who rise to meet the world with knowledge, integrity and the courage to lead.</p>
+      </article>
+
+      <article class="panel">
+        <h3>Our Mission</h3>
+        <ul class="tick-list">
+          <li>Deliver academic excellence across LKG through Class XII.</li>
+          <li>Build character through discipline, service and shared responsibility.</li>
+          <li>Provide a safe, encouraging campus where every student is known by name.</li>
+          <li>Prepare students for board examinations and for life beyond them.</li>
+        </ul>
+      </article>
+
+      <article class="panel">
+        <h3>Motto</h3>
+        <p class="motto-display">"Arise and Shine"</p>
+        <p>A daily reminder to our students that every morning is a fresh chance to grow — academically, morally and personally.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="view hidden" id="view-academics">
+    <div class="section-head">
+      <p class="eyebrow">Academics</p>
+      <h2>A curriculum built stage by stage</h2>
+    </div>
+
+    <div class="academics-grid">
+      <article class="panel stage-panel">
+        <span class="stage-tag">Primary</span>
+        <h3>LKG – Class V</h3>
+        <p>Play-based learning that builds phonics, numeracy and curiosity, with English, Tamil, Mathematics, Environmental Science and creative arts.</p>
+      </article>
+      <article class="panel stage-panel">
+        <span class="stage-tag">Middle School</span>
+        <h3>Class VI – VIII</h3>
+        <p>A widened subject base — Science, Social Science, Mathematics, Computer Science and two languages — with lab work and project-based assessment.</p>
+      </article>
+      <article class="panel stage-panel">
+        <span class="stage-tag">Secondary</span>
+        <h3>Class IX – X</h3>
+        <p>Board-aligned Matriculation syllabus in Physics, Chemistry, Biology, Mathematics, Social Science, English and Tamil, with structured exam preparation.</p>
+      </article>
+      <article class="panel stage-panel">
+        <span class="stage-tag">Higher Secondary</span>
+        <h3>Class XI – XII</h3>
+        <p>Streams in Biology, Computer Science and Commerce, taught by subject specialists with regular model examinations.</p>
+      </article>
+    </div>
+
+    <div class="panel">
+      <h3>How We Assess</h3>
+      <p>Students are assessed through periodic tests, unit exams and term examinations. Rank cards are uploaded directly by administration and accessible via Student Login.</p>
+    </div>
+  </section>
+
+  <section class="view hidden" id="view-admissions">
+    <div class="section-head">
+      <p class="eyebrow">Admissions</p>
+      <h2>Join the flock</h2>
+    </div>
+
+    <div class="admissions-layout">
+      <ol class="steps-list">
+        <li><strong>Enquire</strong><span>Submit the form or visit the school office with your child's basic details.</span></li>
+        <li><strong>Document Check</strong><span>Birth certificate, transfer certificate (if any) and previous report card.</span></li>
+        <li><strong>Interaction</strong><span>A short, friendly interaction with the student and parents.</span></li>
+        <li><strong>Confirmation</strong><span>Seat confirmed on payment of admission fee.</span></li>
+      </ol>
+
+      <form class="panel form-panel" id="admissionForm">
+        <h3>Admission Enquiry Form</h3>
+        <label>Student Name
+          <input type="text" id="admissionStudentName" required placeholder="Full name">
+        </label>
+        <label>Applying for Class
+          <select id="admissionClass" required>
+            <option value="">Select class</option>
+            <option>LKG</option><option>UKG</option>
+            <option>I</option><option>II</option><option>III</option><option>IV</option><option>V</option>
+            <option>VI</option><option>VII</option><option>VIII</option><option>IX</option><option>X</option>
+            <option>XI</option><option>XII</option>
+          </select>
+        </label>
+        <label>Parent / Guardian Name
+          <input type="text" id="admissionGuardianName" required placeholder="Full name">
+        </label>
+        <label>Contact Number
+          <input type="tel" id="admissionContact" required placeholder="10-digit mobile number">
+        </label>
+        <label>Message (optional)
+          <textarea id="admissionMessage" rows="3" placeholder="Anything we should know"></textarea>
+        </label>
+        <button type="submit" class="btn btn-gold btn-rounded">Submit Enquiry</button>
+        <p class="form-note" id="admissionFormNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="view hidden" id="view-facilities">
+    <div class="section-head">
+      <p class="eyebrow">Facilities</p>
+      <h2>What the campus offers</h2>
+    </div>
+    <div class="facilities-grid" id="facilitiesGrid"></div>
+  </section>
+
+  <section class="view hidden" id="view-gallery">
+    <div class="section-head">
+      <p class="eyebrow">Gallery</p>
+      <h2>Campus moments</h2>
+      <p class="muted">Click any image to zoom in/out or view media.</p>
+    </div>
+    <div class="gallery-grid" id="galleryGrid"></div>
+  </section>
+
+  <div class="gallery-modal hidden" id="galleryModal">
+    <button type="button" class="modal-close" id="modalCloseBtn">&times;</button>
+    <div class="modal-controls">
+      <button type="button" class="btn-zoom" id="zoomInBtn">Zoom In +</button>
+      <button type="button" class="btn-zoom" id="zoomOutBtn">Zoom Out -</button>
+      <button type="button" class="btn-zoom" id="zoomResetBtn">Reset</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+    <div class="modal-caption" id="modalCaption"></div>
+  </div>
+
+  <section class="view hidden" id="view-contact">
+    <div class="section-head">
+      <p class="eyebrow">Contact</p>
+      <h2>Come say hello</h2>
+    </div>
+
+    <div class="contact-layout">
+      <div class="panel">
+        <h3>Reach Us</h3>
+        <p><strong>Address</strong><br><span id="contactAddress">Good Shepherd Matric. Hr. Sec. School,<br>Korattur, Chennai 600080, Tamil Nadu</span></p>
+        <p><strong>Phone</strong><br><span id="contactPhone">+91 44 2679 0000</span></p>
+        <p><strong>Email</strong><br><span id="contactEmail">info@goodshepherdkorattur.edu.in</span></p>
+        <p><strong>Office Hours</strong><br><span id="contactHours">Mon–Sat, 8:30 AM – 3:30 PM</span></p>
+      </div>
+
+      <form class="panel form-panel" id="contactForm">
+        <h3>Send a Message</h3>
+        <label>Your Name
+          <input type="text" required placeholder="Full name">
+        </label>
+        <label>Email / Phone
+          <input type="text" required placeholder="How to reach you">
+        </label>
+        <label>Message
+          <textarea rows="4" required placeholder="Your question or note"></textarea>
+        </label>
+        <button type="submit" class="btn btn-gold btn-rounded">Send Message</button>
+        <p class="form-note" id="contactFormNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="view hidden" id="view-login">
+    <div class="login-card panel">
+      <div class="role-tabs">
+        <button type="button" class="role-tab active bold-student-login" data-role="student">Student</button>
+        <button type="button" class="role-tab" data-role="admin">Admin</button>
+      </div>
+
+      <form class="form-panel" id="loginForm">
+        <div id="studentLoginFields">
+          <label>Student Name
+            <input type="text" id="studentLoginName" placeholder="Enter student full name">
+          </label>
+          <label>Roll Number
+            <input type="text" id="studentLoginRoll" placeholder="Enter roll number">
+          </label>
+        </div>
+
+        <div id="adminLoginFields" class="hidden">
+          <label>Admin Name
+            <input type="text" id="adminUser" placeholder="Enter admin name">
+          </label>
+          <label>Password
+            <input type="password" id="adminPass" placeholder="Enter password">
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-gold btn-block btn-rounded bold-student-login" id="loginSubmitBtn">Log In</button>
+        <p class="form-note" id="loginErrorNote" style="color: red; margin-top: 0.8rem;"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- STUDENT DASHBOARD: Simplified to Name, Standard (Class), Roll No, and Rank Cards -->
+  <section class="view hidden" id="view-student-dashboard">
+    <div class="dash-head">
+      <div>
+        <p class="eyebrow">Student Portal</p>
+        <h2 id="studentDashName">Student</h2>
+      </div>
+      <button type="button" class="btn btn-outline btn-rounded" id="studentLogoutBtn">Log Out</button>
+    </div>
+
+    <article class="panel student-minimal-profile" id="studentProfileCard"></article>
+
+    <section class="rankcards-section">
+      <div class="section-head">
+        <p class="eyebrow">Exam Rank Cards</p>
+        <h2>My Rank Cards</h2>
+      </div>
+      <div id="studentRankCardsGrid" class="rankcards-grid"></div>
+    </section>
+  </section>
+
+  <!-- ADMIN DASHBOARD: School Management, Students Directory, Add Student, Rank Cards, Announcements, Gallery -->
+  <section class="view hidden" id="view-admin-dashboard">
+    <div class="dash-head">
+      <div>
+        <p class="eyebrow">Administrator Portal</p>
+        <h2>School Overview & Management</h2>
+      </div>
+      <button type="button" class="btn btn-outline btn-rounded" id="adminLogoutBtn">Log Out</button>
+    </div>
+
+    <div class="stat-shields" id="adminStats"></div>
+
+    <div class="dash-grid">
+      <article class="panel admin-wide">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <h3>Students Directory</h3>
+          <button type="button" class="btn btn-gold btn-rounded" id="openAddStudentBtn">+ Add New Student</button>
+        </div>
+        <p class="muted">Students organized by class:</p>
+        <div id="adminStudentsGrouped"></div>
+      </article>
+    </div>
+
+    <!-- ADD STUDENT PANEL -->
+    <div class="panel hidden" id="addStudentPanel" style="margin-top: 1.5rem;">
+      <h3>Add New Student</h3>
+      <form class="form-panel" id="addStudentForm">
+        <label>Student Name
+          <input type="text" id="addStudentName" required placeholder="Full Name">
+        </label>
+        <div class="form-row-2">
+          <label>Standard / Class
+            <select id="addStudentClass" required>
+              <option value="">Select Class</option>
+              <option>LKG</option><option>UKG</option>
+              <option>I</option><option>II</option><option>III</option><option>IV</option><option>V</option>
+              <option>VI</option><option>VII</option><option>VIII</option><option>IX</option><option>X</option>
+              <option>XI - Vision</option><option>XII</option>
+            </select>
+          </label>
+          <label>Roll Number
+            <input type="text" id="addStudentRollNo" required placeholder="Roll Number">
+          </label>
+        </div>
+        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+          <button type="submit" class="btn btn-gold btn-rounded">Add Student</button>
+          <button type="button" class="btn btn-outline btn-rounded" id="cancelAddStudentBtn">Cancel</button>
+        </div>
+        <p class="form-note" id="addStudentNote"></p>
+      </form>
+    </div>
+
+    <!-- EDIT STUDENT RECORD & RANK CARDS PANEL -->
+    <div class="panel hidden" id="editStudentPanel" style="margin-top: 1.5rem;">
+      <h3>Manage Student Record: <span id="editStudentNameTitle"></span></h3>
+      <form class="form-panel" id="editStudentForm">
+        <input type="hidden" id="editStudentId">
+        <label>Student Name
+          <input type="text" id="editStudentName" required>
+        </label>
+        <div class="form-row-2">
+          <label>Standard / Class
+            <select id="editStudentClass" required>
+              <option value="">Select Class</option>
+              <option>LKG</option><option>UKG</option>
+              <option>I</option><option>II</option><option>III</option><option>IV</option><option>V</option>
+              <option>VI</option><option>VII</option><option>VIII</option><option>IX</option><option>X</option>
+              <option>XI - Vision</option><option>XII</option>
+            </select>
+          </label>
+          <label>Roll Number
+            <input type="text" id="editStudentRollNo" required>
+          </label>
+        </div>
+
+        <h4 style="margin-top: 1.2rem;">Exam Rank Cards</h4>
+        <p class="muted">Add or replace rank cards. The exam name will be rendered at the top of each card.</p>
+        <div id="studentRankCardsAdminList" class="rankcards-admin-list"></div>
+
+        <div class="rankcard-add-box">
+          <label>Exam Name (Displayed at Top of Rank Card)
+            <input type="text" id="newRankCardExam" placeholder="e.g. Quarterly Examination">
+          </label>
+          <label>Rank Card Photo
+            <input type="file" id="newRankCardFile" accept="image/*">
+          </label>
+          <button type="button" class="btn btn-outline btn-rounded" id="addRankCardBtn">Upload Rank Card</button>
+          <p class="form-note" id="rankCardAdminNote"></p>
+        </div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+          <button type="submit" class="btn btn-gold btn-rounded">Save Basic Details</button>
+          <button type="button" class="btn btn-outline btn-rounded" id="cancelEditStudentBtn">Cancel</button>
+        </div>
+      </form>
+    </div>
+
+    <div class="dash-grid" style="margin-top: 1.5rem;">
+      <article class="panel">
+        <h3>Post Notice / Announcement</h3>
+        <p class="muted">Announcements updated here automatically sync to the homepage notice board.</p>
+        <form class="form-panel" id="announcementForm">
+          <label>Title
+            <input type="text" id="announcementTitle" required placeholder="Notice title">
+          </label>
+          <label>Body
+            <textarea id="announcementBody" rows="3" required placeholder="Details..."></textarea>
+          </label>
+          <button type="submit" class="btn btn-gold btn-rounded">Post Announcement</button>
+        </form>
+
+        <h4 style="margin-top: 1.5rem;">Active Announcements</h4>
+        <ul class="mini-announcements" id="adminAnnouncementsList"></ul>
+      </article>
+
+      <article class="panel">
+        <h3>Update School Details</h3>
+        <form class="form-panel" id="schoolDetailsForm">
+          <label>Hero Subtitle Text
+            <textarea id="detailHeroSub" rows="2"></textarea>
+          </label>
+          <label>About Story
+            <textarea id="detailAboutStory" rows="3"></textarea>
+          </label>
+          <label>Address (comma separated)
+            <input type="text" id="detailAddress">
+          </label>
+          <label>Phone
+            <input type="text" id="detailPhone">
+          </label>
+          <label>Email
+            <input type="text" id="detailEmail">
+          </label>
+          <label>Office Hours
+            <input type="text" id="detailHours">
+          </label>
+          <button type="submit" class="btn btn-gold btn-rounded">Save School Details</button>
+          <p class="form-note" id="schoolDetailsNote"></p>
+        </form>
+      </article>
+    </div>
+
+    <div class="dash-grid" style="margin-top: 1.5rem;">
+      <article class="panel admin-wide">
+        <h3>Manage Gallery</h3>
+        <div class="admin-gallery-list" id="adminGalleryList"></div>
+        <h4>Add Gallery Image or Video</h4>
+        <form class="form-panel" id="galleryAddForm">
+          <label>Caption / Title
+            <input type="text" id="galleryLabel" required placeholder="e.g. Annual Day Rehearsal">
+          </label>
+          <label>Media Type
+            <select id="galleryMediaType">
+              <option value="image">Image</option>
+              <option value="video">Video</option>
+            </select>
+          </label>
+          <label>Upload File (Image or Video)
+            <input type="file" id="galleryMediaFile" accept="image/*,video/*">
+          </label>
+          <label>Or Media URL (optional)
+            <input type="text" id="galleryMediaUrl" placeholder="https://...">
+          </label>
+          <button type="submit" class="btn btn-gold btn-rounded">Add Media to Gallery</button>
+          <p class="form-note" id="galleryAddNote"></p>
+        </form>
+      </article>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <img src="school.png" alt="Good Shepherd crest" class="footer-crest">
+  <p>Good Shepherd Matriculation Higher Secondary School &nbsp;·&nbsp; Korattur, Chennai 600080 &nbsp;·&nbsp; Since 1986</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
